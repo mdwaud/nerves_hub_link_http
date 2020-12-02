@@ -68,7 +68,7 @@ defmodule NervesHub.MixProject do
       {:fwup, "~> 0.4.0"},
       {:hackney, "~> 1.10"},
       {:jason, "~> 1.0"},
-      {:nerves_hub_cli, "~> 0.9", runtime: false},
+      {:nerves_hub_cli, "~> 0.10", runtime: false},
       {:nerves_runtime, "~> 0.8"},
       {:x509, "~> 0.5"},
       {:dialyxir, "~> 1.0.0", only: [:dev, :test], runtime: false},
